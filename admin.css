@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.upload-section {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.wallpapers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wallpaper-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

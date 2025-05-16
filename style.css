@@ -1,0 +1,88 @@
+/* Global Styling */
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Styling */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007aff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Section Styling */
+.wallpaper-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.wallpaper-card {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.wallpaper-card:hover {
+    transform: translateY(-5px);
+}
+
+.wallpaper-card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Download Button */
+.wallpaper-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007aff;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.wallpaper-card a:hover {
+    background-color: #0056b3;
+}

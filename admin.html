@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="upload-section">
+        <h2>Upload New Wallpaper</h2>
+        <input type="file" id="wallpaperUpload" accept="image/*">
+        <button onclick="uploadWallpaper()">Upload</button>
+    </section>
+
+    <section class="wallpapers">
+        <h2>Manage Wallpapers</h2>
+        <div id="wallpaperGallery">
+            <!-- Uploaded images will appear here dynamically -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
